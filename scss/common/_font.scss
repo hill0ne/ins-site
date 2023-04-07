@@ -1,0 +1,64 @@
+/* NanumSquare */
+@font-face {
+  font-weight: 400;
+  font-family: 'NanumSquare-Regular';
+  src: url(../font/NanumSquare-Regular.eot);
+  src: url(../font/NanumSquare-Regular.eot?#iefix)format('embedded-opentype'),
+    url(../font/NanumSquare-Regular.woff) format('woff'),
+    url(../font/NanumSquare-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: 'NanumSquare';
+  src: url(../font/NanumSquare-Bold.eot);
+  src: url(../font/NanumSquare-Bold.eot?#iefix) format('embedded-opentype'),
+    url(../font/NanumSquare-Bold.woff) format('woff'),
+    url(../font/NanumSquare-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-weight: 800;
+  font-family: 'NanumSquare';
+  src: url(../font/NanumSquare-ExtraBold.eot);
+  src: url(../font/NanumSquare-ExtraBold.eot?#iefix) format('embedded-opentype'),
+    url(../font/NanumSquare-ExtraBold.woff) format('woff'),
+    url(../font/NanumSquare-ExtraBold.ttf) format('truetype');
+}
+
+/* Montserrat */
+@font-face {
+  font-weight: 500;
+  font-family: 'Montserrat';
+  src: url(../font/Montserrat-Medium.eot);
+  src: url(../font/Montserrat-Medium.eot?#iefix) format('embedded-opentype'),
+    url(../font/Montserrat-Medium.woff) format('woff'),
+    url(../font/Montserrat-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-weight: 600;
+  font-family: 'Montserrat';
+  src: url(../font/Montserrat-SemiBold.eot);
+  src: url(../font/Montserrat-SemiBold.eot?#iefix) format('embedded-opentype'),
+    url(../font/Montserrat-SemiBold.woff) format('woff'),
+    url(../font/Montserrat-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: 'Montserrat';
+  src: url(../font/Montserrat-Bold.eot);
+  src: url(../font/Montserrat-Bold.eot?#iefix) format('embedded-opentype'),
+    url(../font/Montserrat-Bold.woff) format('woff'),
+    url(../font/Montserrat-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-weight: 800;
+  font-family: 'Montserrat';
+  src: url(../font/Montserrat-ExtraBold.eot);
+  src: url(../font/Montserrat-ExtraBold.eot?#iefix) format('embedded-opentype'),
+    url(../font/Montserrat-ExtraBold.woff) format('woff'),
+    url(../font/Montserrat-ExtraBold.ttf) format('truetype');
+}
