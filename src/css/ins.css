@@ -274,7 +274,7 @@ a[href^=tel] {
   display: inline-block;
   width: 22px;
   height: 22px;
-  background: url("../../image/pc/ic_arrow_green_2x.png") no-repeat center/contain;
+  background: url("../image/pc/ic_arrow_green_2x.png") no-repeat center/contain;
   content: "";
 }
 .recruit-link:hover {
@@ -282,7 +282,7 @@ a[href^=tel] {
   color: #fff;
 }
 .recruit-link:hover::after {
-  background-image: url("../../image/pc/ic_arrow_recruit_white_2x.png");
+  background-image: url("../image/pc/ic_arrow_recruit_white_2x.png");
 }
 
 .br-mo {
@@ -315,7 +315,7 @@ a[href^=tel] {
 .ins .header__link {
   width: 156px;
   height: 20px;
-  background: url("../../image/pc/logo_2x.png") no-repeat center/contain;
+  background: url("../image/pc/logo_2x.png") no-repeat center/contain;
 }
 .ins .header .menu-pc {
   display: block;
@@ -341,7 +341,7 @@ a[href^=tel] {
   display: inline-block;
   width: 14px;
   height: 14px;
-  background: url("../../image/pc/ic_arrow_green_2x.png") no-repeat center/contain;
+  background: url("../image/pc/ic_arrow_green_2x.png") no-repeat center/contain;
   background-position: 0 1px;
   content: "";
 }
@@ -419,10 +419,10 @@ a[href^=tel] {
   height: 32px;
 }
 .ins .swiper-button-prev {
-  background: url("../../image/pc/ic_arrow_L_white_2x.png") no-repeat center/contain;
+  background: url("../image/pc/ic_arrow_L_white_2x.png") no-repeat center/contain;
 }
 .ins .swiper-button-next {
-  background: url("../../image/pc/ic_arrow_R_white_2x.png") no-repeat center/contain;
+  background: url("../image/pc/ic_arrow_R_white_2x.png") no-repeat center/contain;
 }
 .ins .swiper-pagination {
   display: inline-flex;
@@ -479,19 +479,19 @@ a[href^=tel] {
   content: "";
 }
 .ins .about__item--company::after {
-  background: url("../../image/pc/ico_company_2x.png") no-repeat center/contain;
+  background: url("../image/pc/ico_company_2x.png") no-repeat center/contain;
 }
 .ins .about__item--date::after {
-  background: url("../../image/pc/ico_date_2x.png") no-repeat center/contain;
+  background: url("../image/pc/ico_date_2x.png") no-repeat center/contain;
 }
 .ins .about__item--ceo::after {
-  background: url("../../image/pc/ico_ceo_2x.png") no-repeat center/contain;
+  background: url("../image/pc/ico_ceo_2x.png") no-repeat center/contain;
 }
 .ins .about__item--work::after {
-  background: url("../../image/ico_work.png") no-repeat center/contain;
+  background: url("../image/ico_work.png") no-repeat center/contain;
 }
 .ins .about__item--num::after {
-  background: url("../../image/ico_num.png") no-repeat center/contain;
+  background: url("../image/ico_num.png") no-repeat center/contain;
 }
 .ins .about__title {
   margin-top: 5px;
@@ -552,42 +552,42 @@ a[href^=tel] {
 .ins .company__item--naver .company__link::after {
   width: 140px;
   height: 26px;
-  background: url("../../image/pc/logo_naver_2x.png") no-repeat center/contain;
+  background: url("../image/pc/logo_naver_2x.png") no-repeat center/contain;
 }
 .ins .company__item--line .company__link::after {
   width: 132px;
   height: 64px;
-  background: url("../../image/pc/logo_line_2x.png") no-repeat center/contain;
+  background: url("../image/pc/logo_line_2x.png") no-repeat center/contain;
 }
 .ins .company__item--cloud .company__link::after {
   width: 224px;
   height: 25px;
-  background: url("../../image/pc/logo_naver-cloud_2x.png") no-repeat center/contain;
+  background: url("../image/pc/logo_naver-cloud_2x.png") no-repeat center/contain;
 }
 .ins .company__item--finance .company__link::after {
   width: 179px;
   height: 48px;
-  background: url("../../image/pc/logo_naver-financial_2x.png") no-repeat center/contain;
+  background: url("../image/pc/logo_naver-financial_2x.png") no-repeat center/contain;
 }
 .ins .company__item--labs .company__link::after {
   width: 223px;
   height: 23px;
-  background: url("../../image/pc/logo_naver-lab_2x.png") no-repeat center/contain;
+  background: url("../image/pc/logo_naver-lab_2x.png") no-repeat center/contain;
 }
 .ins .company__item--webtoon .company__link::after {
   width: 169px;
   height: 60px;
-  background: url("../../image/pc/logo_webtoon_2x.png") no-repeat center/contain;
+  background: url("../image/pc/logo_webtoon_2x.png") no-repeat center/contain;
 }
 .ins .company__item--snow .company__link::after {
   width: 105px;
   height: 25px;
-  background: url("../../image/pc/logo_snow_2x.png") no-repeat center/contain;
+  background: url("../image/pc/logo_snow_2x.png") no-repeat center/contain;
 }
 .ins .company__item--works .company__link::after {
   width: 248px;
   height: 46px;
-  background: url("../../image/pc/logo_work-mobile_2x.png") no-repeat center/contain;
+  background: url("../image/pc/logo_work-mobile_2x.png") no-repeat center/contain;
 }
 .ins .company__link {
   display: flex;
@@ -719,7 +719,7 @@ a[href^=tel] {
   display: block;
   width: 42px;
   height: 42px;
-  background: url("../../image/pc/icon_plus_hover_2x.png") no-repeat center/contain;
+  background: url("../image/pc/icon_plus_hover_2x.png") no-repeat center/contain;
   content: "";
 }
 .ins .service__button {
@@ -738,7 +738,7 @@ a[href^=tel] {
   width: 42px;
   height: 42px;
   margin-right: 12px;
-  background: url("../../image/pc/ic_plus_2x.png") no-repeat center/contain;
+  background: url("../image/pc/ic_plus_2x.png") no-repeat center/contain;
   content: "";
 }
 .ins .contact {
@@ -889,7 +889,7 @@ a[href^=tel] {
   height: 20px;
   transform: rotate(0deg);
   transition: 0.2s;
-  background: url("../../image/pc/ic_arrow_down_2x.png") no-repeat center/contain;
+  background: url("../image/pc/ic_arrow_down_2x.png") no-repeat center/contain;
   content: "";
 }
 .ins .footer__button[aria-expanded=true]::after {
@@ -1089,28 +1089,28 @@ a[href^=tel] {
     padding-right: 14px;
   }
   .ins .company__link--naver::after {
-    background-image: url("../../image/pc/logo_naver.png");
+    background-image: url("../image/pc/logo_naver.png");
   }
   .ins .company__link--line::after {
-    background-image: url("../../image/pc/logo_line.png");
+    background-image: url("../image/pc/logo_line.png");
   }
   .ins .company__link--cloud::after {
-    background-image: url("../../image/pc/logo_naver-cloud.png");
+    background-image: url("../image/pc/logo_naver-cloud.png");
   }
   .ins .company__link--financial::after {
-    background-image: url("../../image/pc/logo_naver-financial.png");
+    background-image: url("../image/pc/logo_naver-financial.png");
   }
   .ins .company__link--labs::after {
-    background-image: url("../../image/pc/logo_naver-lab.png");
+    background-image: url("../image/pc/logo_naver-lab.png");
   }
   .ins .company__link--webtoon::after {
-    background-image: url("../../image/pc/logo_webtoon.png");
+    background-image: url("../image/pc/logo_webtoon.png");
   }
   .ins .company__link--snow::after {
-    background-image: url("../../image/pc/logo_snow.png");
+    background-image: url("../image/pc/logo_snow.png");
   }
   .ins .company__link--works::after {
-    background-image: url("../../image/pc/logo_work-mobile.png");
+    background-image: url("../image/pc/logo_work-mobile.png");
   }
   .ins .service .ins__inner {
     padding: 120px 20px;
@@ -1172,13 +1172,13 @@ a[href^=tel] {
   .ins .header__link {
     width: 110px;
     height: 14px;
-    background-image: url("../../image/pc/logo.png");
+    background-image: url("../image/pc/logo.png");
   }
   .ins .header .menu-mo__button {
     display: inline-block;
     width: 24px;
     height: 24px;
-    background: url("../../image/pc/ic_menu_2px.png") no-repeat center/cover;
+    background: url("../image/pc/ic_menu_2px.png") no-repeat center/cover;
     cursor: pointer;
   }
   .ins .header .menu-mo {
@@ -1206,7 +1206,7 @@ a[href^=tel] {
     width: 110px;
     height: 55px;
     margin-top: 20.75px;
-    background: url("../../image/pc/logo_2x.png") no-repeat center/contain;
+    background: url("../image/pc/logo_2x.png") no-repeat center/contain;
     content: "";
   }
   .ins .header .menu-mo__list {
@@ -1229,7 +1229,7 @@ a[href^=tel] {
     display: inline-block;
     width: 18px;
     height: 15px;
-    background: url("../../image/mo/ic_arrow.png") no-repeat center/contain;
+    background: url("../image/mo/ic_arrow.png") no-repeat center/contain;
     content: "";
   }
   .ins .header .menu-mo__menu {
@@ -1252,7 +1252,7 @@ a[href^=tel] {
     display: block;
     width: 24px;
     height: 24px;
-    background: url("../../image/mo/ic_cancel_2x.png") no-repeat center/contain;
+    background: url("../image/mo/ic_cancel_2x.png") no-repeat center/contain;
     content: "";
   }
   .ins .swiper {
@@ -1289,12 +1289,12 @@ a[href^=tel] {
   .ins .swiper-button-prev {
     width: 24px;
     height: 24px;
-    background: url("../../image/mo/ic_arrow_left_2x.png") no-repeat center/contain;
+    background: url("../image/mo/ic_arrow_left_2x.png") no-repeat center/contain;
   }
   .ins .swiper-button-next {
     width: 24px;
     height: 24px;
-    background: url("../../image/mo/ic_arrow_right_2x.png") no-repeat center/contain;
+    background: url("../image/mo/ic_arrow_right_2x.png") no-repeat center/contain;
   }
   .ins .swiper-pagination {
     width: 40px;
@@ -1339,25 +1339,25 @@ a[href^=tel] {
     content: "";
   }
   .ins .about__item--company::after {
-    background-image: url("../../image/mo/ico_company_2x.png");
+    background-image: url("../image/mo/ico_company_2x.png");
   }
   .ins .about__item--date::after {
-    background-image: url("../../image/mo/ico_date_2x.png");
+    background-image: url("../image/mo/ico_date_2x.png");
   }
   .ins .about__item--ceo::after {
-    background-image: url("../../image/mo/ico_ceo_2x.png");
+    background-image: url("../image/mo/ico_ceo_2x.png");
   }
   .ins .about__item--work {
     margin: 20px -18px 0 0;
   }
   .ins .about__item--work::after {
-    background-image: url("../../image/mo/ico_work_2x.png");
+    background-image: url("../image/mo/ico_work_2x.png");
   }
   .ins .about__item--num {
     margin: 20px 0 0 -20px;
   }
   .ins .about__item--num::after {
-    background-image: url("../../image/mo/ico_num_2x.png");
+    background-image: url("../image/mo/ico_num_2x.png");
   }
   .ins .about__title {
     margin-top: 8px;
@@ -1411,42 +1411,42 @@ a[href^=tel] {
   .ins .company__item--naver .company__link::after {
     width: 70px;
     height: 13px;
-    background-image: url("../../image/mo/logo_naver.png");
+    background-image: url("../image/mo/logo_naver.png");
   }
   .ins .company__item--line .company__link::after {
     width: 66px;
     height: 32px;
-    background-image: url("../../image/mo/logo_line.png");
+    background-image: url("../image/mo/logo_line.png");
   }
   .ins .company__item--cloud .company__link::after {
     width: 112px;
     height: 13px;
-    background-image: url("../../image/mo/logo_naver-cloud.png");
+    background-image: url("../image/mo/logo_naver-cloud.png");
   }
   .ins .company__item--finance .company__link::after {
     width: 90px;
     height: 24px;
-    background-image: url("../../image/mo/logo_naver-financial.png");
+    background-image: url("../image/mo/logo_naver-financial.png");
   }
   .ins .company__item--labs .company__link::after {
     width: 112px;
     height: 12px;
-    background-image: url("../../image/mo/logo_naver-lab.png");
+    background-image: url("../image/mo/logo_naver-lab.png");
   }
   .ins .company__item--webtoon .company__link::after {
     width: 85px;
     height: 30px;
-    background-image: url("../../image/mo/logo_webtoon.png");
+    background-image: url("../image/mo/logo_webtoon.png");
   }
   .ins .company__item--snow .company__link::after {
     width: 53px;
     height: 13px;
-    background-image: url("../../image/mo/logo_snow.png");
+    background-image: url("../image/mo/logo_snow.png");
   }
   .ins .company__item--works .company__link::after {
     width: 124px;
     height: 23px;
-    background-image: url("../../image/mo/logo_work-mobile.png");
+    background-image: url("../image/mo/logo_work-mobile.png");
   }
   .ins .company__link {
     height: 60px;
@@ -1550,7 +1550,7 @@ a[href^=tel] {
   .ins .service__link:hover .service__button::before {
     width: 24px;
     height: 24px;
-    background-image: url("../../image/mo/icon_plus_hover_2x.png");
+    background-image: url("../image/mo/icon_plus_hover_2x.png");
   }
 }
 @media screen and (max-width: 767px) {
@@ -1573,7 +1573,7 @@ a[href^=tel] {
     margin-right: 6px;
     width: 24px;
     height: 24px;
-    background-image: url("../../image/mo/ico_plus_2x.png");
+    background-image: url("../image/mo/ico_plus_2x.png");
   }
 }
 @media screen and (max-width: 767px) {
@@ -1661,12 +1661,12 @@ a[href^=tel] {
     left: 1px;
     width: 16px;
     height: 16px;
-    background-image: url("../../image/mo/ic_arrow.png");
+    background-image: url("../image/mo/ic_arrow.png");
   }
   .ins .recruit-link:hover::after {
     width: 16px;
     height: 16px;
-    background-image: url("../../image/mo/ic_arrow_recruit_white_2x.png");
+    background-image: url("../image/mo/ic_arrow_recruit_white_2x.png");
   }
 }
 @media screen and (max-width: 767px) {

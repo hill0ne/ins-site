@@ -37,7 +37,7 @@
     display: inline-block;
     width: 22px;
     height: 22px;
-    background: url("../../image/pc/ic_arrow_green_2x.png") no-repeat center / contain;
+    background: url("../image/pc/ic_arrow_green_2x.png") no-repeat center / contain;
     content: '';
   }
 
@@ -46,7 +46,7 @@
     color: $color-white;
 
     &::after {
-      background-image: url("../../image/pc/ic_arrow_recruit_white_2x.png");
+      background-image: url("../image/pc/ic_arrow_recruit_white_2x.png");
     }
   }
 }
@@ -81,9 +81,7 @@
     &__link {
       width: 156px;
       height: 20px;
-      background: url("/src/image/pc/logo_2x.png") no-repeat center / contain;
-      // background: url("../../../image/pc/logo_2x.png") no-repeat center / contain;
-      // background: url("../../image/pc/logo_2x.png") no-repeat center / contain;
+      background: url("../image/pc/logo_2x.png") no-repeat center / contain;
     }
 
     // pc, mobile 분기
@@ -115,7 +113,7 @@
                 display: inline-block;
                 width: 14px;
                 height: 14px;
-                background: url("../../image/pc/ic_arrow_green_2x.png") no-repeat center / contain;
+                background: url("../image/pc/ic_arrow_green_2x.png") no-repeat center / contain;
                 background-position: 0 1px;
                 content: '';
               }
@@ -214,11 +212,11 @@
     }
 
     &-button-prev {
-      background: url("../../image/pc/ic_arrow_L_white_2x.png") no-repeat center / contain;
+      background: url("../image/pc/ic_arrow_L_white_2x.png") no-repeat center / contain;
     }
 
     &-button-next {
-      background: url("../../image/pc/ic_arrow_R_white_2x.png") no-repeat center / contain;
+      background: url("../image/pc/ic_arrow_R_white_2x.png") no-repeat center / contain;
     }
 
     &-pagination {
@@ -287,23 +285,23 @@
       }
 
       &--company::after {
-        background: url("../../image/pc/ico_company_2x.png") no-repeat center / contain;
+        background: url("../image/pc/ico_company_2x.png") no-repeat center / contain;
       }
 
       &--date::after {
-        background: url("../../image/pc/ico_date_2x.png") no-repeat center / contain;
+        background: url("../image/pc/ico_date_2x.png") no-repeat center / contain;
       }
 
       &--ceo::after {
-        background: url("../../image/pc/ico_ceo_2x.png") no-repeat center / contain;
+        background: url("../image/pc/ico_ceo_2x.png") no-repeat center / contain;
       }
 
       &--work::after {
-        background: url("../../image/ico_work.png") no-repeat center / contain;
+        background: url("../image/ico_work.png") no-repeat center / contain;
       }
 
       &--num::after {
-        background: url("../../image/ico_num.png") no-repeat center / contain;
+        background: url("../image/ico_num.png") no-repeat center / contain;
       }
     }
 
@@ -373,49 +371,49 @@
       &--naver .company__link::after {
         width: 140px;
         height: 26px;
-        background: url("../../image/pc/logo_naver_2x.png") no-repeat center / contain;
+        background: url("../image/pc/logo_naver_2x.png") no-repeat center / contain;
       }
 
       &--line .company__link::after {
         width: 132px;
         height: 64px;
-        background: url("../../image/pc/logo_line_2x.png") no-repeat center / contain;
+        background: url("../image/pc/logo_line_2x.png") no-repeat center / contain;
       }
 
       &--cloud .company__link::after {
         width: 224px;
         height: 25px;
-        background: url("../../image/pc/logo_naver-cloud_2x.png") no-repeat center / contain;
+        background: url("../image/pc/logo_naver-cloud_2x.png") no-repeat center / contain;
       }
 
       &--finance .company__link::after {
         width: 179px;
         height: 48px;
-        background: url("../../image/pc/logo_naver-financial_2x.png") no-repeat center / contain;
+        background: url("../image/pc/logo_naver-financial_2x.png") no-repeat center / contain;
       }
 
       &--labs .company__link::after {
         width: 223px;
         height: 23px;
-        background: url("../../image/pc/logo_naver-lab_2x.png") no-repeat center / contain;
+        background: url("../image/pc/logo_naver-lab_2x.png") no-repeat center / contain;
       }
 
       &--webtoon .company__link::after {
         width: 169px;
         height: 60px;
-        background: url("../../image/pc/logo_webtoon_2x.png") no-repeat center / contain;
+        background: url("../image/pc/logo_webtoon_2x.png") no-repeat center / contain;
       }
 
       &--snow .company__link::after {
         width: 105px;
         height: 25px;
-        background: url("../../image/pc/logo_snow_2x.png") no-repeat center / contain;
+        background: url("../image/pc/logo_snow_2x.png") no-repeat center / contain;
       }
 
       &--works .company__link::after {
         width: 248px;
         height: 46px;
-        background: url("../../image/pc/logo_work-mobile_2x.png") no-repeat center / contain;
+        background: url("../image/pc/logo_work-mobile_2x.png") no-repeat center / contain;
       }
     }
 
@@ -571,7 +569,7 @@
           display: block;
           width: 42px;
           height: 42px;
-          background: url("../../image/pc/icon_plus_hover_2x.png") no-repeat center / contain;
+          background: url("../image/pc/icon_plus_hover_2x.png") no-repeat center / contain;
           content: "";
         }
       }
@@ -593,7 +591,7 @@
         width: 42px;
         height: 42px;
         margin-right: 12px;
-        background: url("../../image/pc/ic_plus_2x.png") no-repeat center / contain;
+        background: url("../image/pc/ic_plus_2x.png") no-repeat center / contain;
         content: "";
       }
     }
@@ -777,7 +775,7 @@
         height: 20px;
         transform: rotate(0deg);
         transition: 0.2s;
-      background: url("../../image/pc/ic_arrow_down_2x.png") no-repeat center / contain;
+      background: url("../image/pc/ic_arrow_down_2x.png") no-repeat center / contain;
         content: '';
       }
 

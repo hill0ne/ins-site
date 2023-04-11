@@ -69,35 +69,35 @@
 
       &__link {
         &--naver::after {
-          background-image: url("../../image/pc/logo_naver.png");
+          background-image: url("../image/pc/logo_naver.png");
         }
 
         &--line::after {
-          background-image: url("../../image/pc/logo_line.png");
+          background-image: url("../image/pc/logo_line.png");
         }
 
         &--cloud::after {
-          background-image: url("../../image/pc/logo_naver-cloud.png");
+          background-image: url("../image/pc/logo_naver-cloud.png");
         }
 
         &--financial::after {
-          background-image: url("../../image/pc/logo_naver-financial.png");
+          background-image: url("../image/pc/logo_naver-financial.png");
         }
 
         &--labs::after {
-          background-image: url("../../image/pc/logo_naver-lab.png");
+          background-image: url("../image/pc/logo_naver-lab.png");
         }
 
         &--webtoon::after {
-          background-image: url("../../image/pc/logo_webtoon.png");
+          background-image: url("../image/pc/logo_webtoon.png");
         }
 
         &--snow::after {
-          background-image: url("../../image/pc/logo_snow.png");
+          background-image: url("../image/pc/logo_snow.png");
         }
 
         &--works::after {
-          background-image: url("../../image/pc/logo_work-mobile.png");
+          background-image: url("../image/pc/logo_work-mobile.png");
         }
       }
     }
@@ -190,14 +190,14 @@
       &__link {
         width: 110px;
         height: 14px;
-        background-image: url("../../image/pc/logo.png");
+        background-image: url("../image/pc/logo.png");
       }
 
       .menu-mo__button {
         display: inline-block;
         width: 24px;
         height: 24px;
-        background: url("../../image/pc/ic_menu_2px.png") no-repeat center / cover;
+        background: url("../image/pc/ic_menu_2px.png") no-repeat center / cover;
         cursor: pointer;
       }
 
@@ -227,7 +227,7 @@
             width: 110px;
             height: 55px;
             margin-top: 20.75px;
-            background: url("../../image/pc/logo_2x.png") no-repeat center / contain;
+            background: url("../image/pc/logo_2x.png") no-repeat center / contain;
             content: "";
           }
         }
@@ -254,7 +254,7 @@
               display: inline-block;
               width: 18px;
               height: 15px;
-              background: url("../../image/mo/ic_arrow.png") no-repeat center / contain;
+              background: url("../image/mo/ic_arrow.png") no-repeat center / contain;
               content: "";
             }
           }
@@ -281,7 +281,7 @@
             display: block;
             width: 24px;
             height: 24px;
-            background: url("../../image/mo/ic_cancel_2x.png") no-repeat center / contain;
+            background: url("../image/mo/ic_cancel_2x.png") no-repeat center / contain;
             content: "";
           }
         }
@@ -328,13 +328,13 @@
       &-button-prev {
         width: 24px;
         height: 24px;
-        background: url("../../image/mo/ic_arrow_left_2x.png") no-repeat center / contain;
+        background: url("../image/mo/ic_arrow_left_2x.png") no-repeat center / contain;
       }
 
       &-button-next {
         width: 24px;
         height: 24px;
-        background: url("../../image/mo/ic_arrow_right_2x.png") no-repeat center / contain;
+        background: url("../image/mo/ic_arrow_right_2x.png") no-repeat center / contain;
       }
 
       &-pagination {
@@ -390,22 +390,22 @@
         }
 
         &--company::after {
-          background-image: url("../../image/mo/ico_company_2x.png");
+          background-image: url("../image/mo/ico_company_2x.png");
         }
 
         &--date::after {
-          background-image: url("../../image/mo/ico_date_2x.png");
+          background-image: url("../image/mo/ico_date_2x.png");
         }
 
         &--ceo::after {
-          background-image: url("../../image/mo/ico_ceo_2x.png");
+          background-image: url("../image/mo/ico_ceo_2x.png");
         }
 
         &--work {
           margin: 20px -18px 0 0;
 
           &::after {
-            background-image: url("../../image/mo/ico_work_2x.png");
+            background-image: url("../image/mo/ico_work_2x.png");
           }
         }
 
@@ -413,7 +413,7 @@
           margin: 20px 0 0 -20px;
 
           &::after {
-            background-image: url("../../image/mo/ico_num_2x.png");
+            background-image: url("../image/mo/ico_num_2x.png");
           }
         }
       }
@@ -483,49 +483,49 @@
         &--naver .company__link::after {
           width: 70px;
           height: 13px;
-          background-image: url("../../image/mo/logo_naver.png");
+          background-image: url("../image/mo/logo_naver.png");
         }
 
         &--line .company__link::after {
           width: 66px;
           height: 32px;
-          background-image: url("../../image/mo/logo_line.png");
+          background-image: url("../image/mo/logo_line.png");
         }
 
         &--cloud .company__link::after {
           width: 112px;
           height: 13px;
-          background-image: url("../../image/mo/logo_naver-cloud.png");
+          background-image: url("../image/mo/logo_naver-cloud.png");
         }
 
         &--finance .company__link::after {
           width: 90px;
           height: 24px;
-          background-image: url("../../image/mo/logo_naver-financial.png");
+          background-image: url("../image/mo/logo_naver-financial.png");
         }
 
         &--labs .company__link::after {
           width: 112px;
           height: 12px;
-          background-image: url("../../image/mo/logo_naver-lab.png");
+          background-image: url("../image/mo/logo_naver-lab.png");
         }
 
         &--webtoon .company__link::after {
           width: 85px;
           height: 30px;
-          background-image: url("../../image/mo/logo_webtoon.png");
+          background-image: url("../image/mo/logo_webtoon.png");
         }
 
         &--snow .company__link::after {
           width: 53px;
           height: 13px;
-          background-image: url("../../image/mo/logo_snow.png");
+          background-image: url("../image/mo/logo_snow.png");
         }
 
         &--works .company__link::after {
           width: 124px;
           height: 23px;
-          background-image: url("../../image/mo/logo_work-mobile.png");
+          background-image: url("../image/mo/logo_work-mobile.png");
         }
       }
 
@@ -646,7 +646,7 @@
           &::before {
             width: 24px;
             height: 24px;
-          background-image: url("../../image/mo/icon_plus_hover_2x.png");
+          background-image: url("../image/mo/icon_plus_hover_2x.png");
           }
         }
       }
@@ -669,7 +669,7 @@
           margin-right: 6px;
           width: 24px;
           height: 24px;
-          background-image: url("../../image/mo/ico_plus_2x.png");
+          background-image: url("../image/mo/ico_plus_2x.png");
         }
       }
     }
@@ -776,13 +776,13 @@
           left: 1px;
           width: 16px;
           height: 16px;
-          background-image: url("../../image/mo/ic_arrow.png");
+          background-image: url("../image/mo/ic_arrow.png");
         }
 
         &:hover::after {
           width: 16px;
           height: 16px;
-          background-image: url("../../image/mo/ic_arrow_recruit_white_2x.png");
+          background-image: url("../image/mo/ic_arrow_recruit_white_2x.png");
         }
       }
     }
