@@ -81,7 +81,9 @@
     &__link {
       width: 156px;
       height: 20px;
-      background: url("../../image/pc/logo_2x.png") no-repeat center / contain;
+      background: url("/src/image/pc/logo_2x.png") no-repeat center / contain;
+      // background: url("../../../image/pc/logo_2x.png") no-repeat center / contain;
+      // background: url("../../image/pc/logo_2x.png") no-repeat center / contain;
     }
 
     // pc, mobile 분기
