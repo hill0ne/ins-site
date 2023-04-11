@@ -31,15 +31,23 @@
   border: 2px solid $color-green;
   border-radius: 45px;
   transition: 0.3s;
+  border: 1px solid;
 
   &::after {
-    @include get-sprite(ic_arrow_recruit_2x, $sp-pc);
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: url("../../image/pc/ic_arrow_green_2x.png") no-repeat center / contain;
     content: '';
   }
 
   &:hover {
     background-color: $color-green;
     color: $color-white;
+
+    &::after {
+      background-image: url("../../image/pc/ic_arrow_recruit_white_2x.png");
+    }
   }
 }
 
@@ -71,7 +79,9 @@
     }
 
     &__link {
-      @include get-sprite(logo_2x, $sp_pc);
+      width: 156px;
+      height: 20px;
+      background: url("../../image/pc/logo_2x.png") no-repeat center / contain;
     }
 
     // pc, mobile 분기
@@ -101,9 +111,11 @@
 
               &::after {
                 display: inline-block;
-                top: 1px;
+                width: 14px;
+                height: 14px;
+                background: url("../../image/pc/ic_arrow_green_2x.png") no-repeat center / contain;
+                background-position: 0 1px;
                 content: '';
-                @include get-sprite(ic_arrow_green_2x, $sp-pc);
               }
             }
 
@@ -141,9 +153,7 @@
             width: 100%;
           }
         }
-
       }
-
     }
 
     .menu-mo__button {
@@ -193,16 +203,20 @@
       height: 32px;
     }
 
-    &-button-prev {
-      display: inline-block;
-      cursor: pointer;
-      @include get-sprite(ic_arrow_L_white_2x, $sp_pc);
-    }
-
+    &-button-prev,
     &-button-next {
       display: inline-block;
       cursor: pointer;
-      @include get-sprite(ic_arrow_R_white_2x, $sp_pc);
+      width: 32px;
+      height: 32px;
+    }
+
+    &-button-prev {
+      background: url("../../image/pc/ic_arrow_L_white_2x.png") no-repeat center / contain;
+    }
+
+    &-button-next {
+      background: url("../../image/pc/ic_arrow_R_white_2x.png") no-repeat center / contain;
     }
 
     &-pagination {
@@ -265,27 +279,29 @@
       &::after {
         position: absolute;
         top: 15px;
+        width: 68px;
+        height: 68px;
         content: "";
       }
 
       &--company::after {
-        @include get-sprite (ico_company_2x, $sp-pc);
+        background: url("../../image/pc/ico_company_2x.png") no-repeat center / contain;
       }
 
       &--date::after {
-        @include get-sprite (ico_date_2x, $sp-pc);
+        background: url("../../image/pc/ico_date_2x.png") no-repeat center / contain;
       }
 
       &--ceo::after {
-        @include get-sprite (ico_ceo_2x, $sp-pc);
+        background: url("../../image/pc/ico_ceo_2x.png") no-repeat center / contain;
       }
 
       &--work::after {
-        @include get-sprite (ico_work_2x, $sp-pc);
+        background: url("../../image/ico_work.png") no-repeat center / contain;
       }
 
       &--num::after {
-        @include get-sprite (ico_num_2x, $sp-pc);
+        background: url("../../image/ico_num.png") no-repeat center / contain;
       }
     }
 
@@ -353,45 +369,52 @@
       }
 
       &--naver .company__link::after {
-        @include get-sprite(logo_naver_2x, $sp-pc);
-        content: "";
+        width: 140px;
+        height: 26px;
+        background: url("../../image/pc/logo_naver_2x.png") no-repeat center / contain;
       }
 
       &--line .company__link::after {
-        content: "";
-        @include get-sprite(logo_line_2x, $sp-pc);
+        width: 132px;
+        height: 64px;
+        background: url("../../image/pc/logo_line_2x.png") no-repeat center / contain;
       }
 
       &--cloud .company__link::after {
-        @include get-sprite(logo_naver-cloud_2x, $sp-pc);
-        content: "";
+        width: 224px;
+        height: 25px;
+        background: url("../../image/pc/logo_naver-cloud_2x.png") no-repeat center / contain;
       }
 
       &--finance .company__link::after {
-        content: "";
-        @include get-sprite(logo_naver-financial_2x, $sp-pc);
+        width: 179px;
+        height: 48px;
+        background: url("../../image/pc/logo_naver-financial_2x.png") no-repeat center / contain;
       }
 
       &--labs .company__link::after {
-        content: "";
-        @include get-sprite(logo_naver-lab_2x, $sp-pc);
+        width: 223px;
+        height: 23px;
+        background: url("../../image/pc/logo_naver-lab_2x.png") no-repeat center / contain;
       }
 
       &--webtoon .company__link::after {
-        content: "";
-        @include get-sprite(logo_webtoon_2x, $sp-pc);
+        width: 169px;
+        height: 60px;
+        background: url("../../image/pc/logo_webtoon_2x.png") no-repeat center / contain;
       }
 
       &--snow .company__link::after {
-        content: "";
-        @include get-sprite(logo_snow_2x, $sp-pc);
+        width: 105px;
+        height: 25px;
+        background: url("../../image/pc/logo_snow_2x.png") no-repeat center / contain;
       }
 
       &--works .company__link::after {
-        content: "";
-        @include get-sprite(logo_work-mobile_2x, $sp-pc);
+        width: 248px;
+        height: 46px;
+        background: url("../../image/pc/logo_work-mobile_2x.png") no-repeat center / contain;
       }
-
     }
 
     &__link {
@@ -401,6 +424,10 @@
       height: 120px;
       border-radius: 20px;
       background: $color-white;
+
+      &::after {
+        content: "";
+      }
     }
   }
 
@@ -527,8 +554,8 @@
       img {
         display: block;
         width: 100%;
-        height: 100%;
         transition: 0.8s;
+
       }
 
       &:hover img {
@@ -539,10 +566,13 @@
         color: $color-white;
 
         &::before {
-          @include get-sprite(icon_plus_hover_2x, $sp-pc);
+          display: block;
+          width: 42px;
+          height: 42px;
+          background: url("../../image/pc/icon_plus_hover_2x.png") no-repeat center / contain;
+          content: "";
         }
       }
-
     }
 
     &__button {
@@ -558,9 +588,11 @@
 
       &::before {
         display: block;
+        width: 42px;
+        height: 42px;
         margin-right: 12px;
-        @include get-sprite(ic_plus_2x, $sp-pc);
-        content: '';
+        background: url("../../image/pc/ic_plus_2x.png") no-repeat center / contain;
+        content: "";
       }
     }
   }
@@ -665,7 +697,7 @@
 
       &:hover {
         &::after {
-          @include get-sprite(ic_arrow_recruit_white_2x, $sp-pc);
+          // @include get-sprite(ic_arrow_recruit_white_2x, $sp-pc);
           content: '';
         }
       }
@@ -739,9 +771,11 @@
 
       &::after {
         position: relative;
+        width: 20px;
+        height: 20px;
         transform: rotate(0deg);
         transition: 0.2s;
-        @include get-sprite(ic_arrow_down_2x, $sp-pc);
+      background: url("../../image/pc/ic_arrow_down_2x.png") no-repeat center / contain;
         content: '';
       }
 
@@ -751,7 +785,7 @@
         transition: 0.2s;
       }
 
-      &[aria-expanded="true"] + .footer__list {
+      &[aria-expanded="true"]+.footer__list {
         display: block;
       }
     }
@@ -829,12 +863,12 @@
             &::after {
               position: relative;
               left: 1px;
-              @include get-sprite(ic_arrow_green_2x, $sp-pc);
+              // @include get-sprite(ic_arrow_green_2x, $sp-pc);
               content: '';
             }
 
             &:hover::after {
-              @include get-sprite(ic_arrow_popup_2x, $sp-pc);
+              // @include get-sprite(ic_arrow_popup_2x, $sp-pc);
             }
           }
         }
@@ -873,7 +907,7 @@
               .about__title::before {
                 display: block;
                 margin-bottom: 10px;
-                @include get-sprite(ico_benefit_2x, $sp-pc);
+                // @include get-sprite(ico_benefit_2x, $sp-pc);
                 content: '';
               }
             }
@@ -882,7 +916,7 @@
               &::before {
                 display: block;
                 margin-bottom: 10px;
-                @include get-sprite(ico_support_2x, $sp-pc);
+                // @include get-sprite(ico_support_2x, $sp-pc);
                 content: '';
               }
             }
@@ -891,7 +925,7 @@
               &::before {
                 display: block;
                 margin-bottom: 10px;
-                @include get-sprite(ico_pay_2x, $sp-pc);
+                // @include get-sprite(ico_pay_2x, $sp-pc);
                 content: '';
               }
             }
@@ -900,7 +934,7 @@
               &::before {
                 display: block;
                 margin-bottom: 10px;
-                @include get-sprite(ico_finance_2x, $sp-pc);
+                // @include get-sprite(ico_finance_2x, $sp-pc);
                 content: '';
               }
             }
@@ -909,7 +943,7 @@
               &::before {
                 display: block;
                 margin-bottom: 10px;
-                @include get-sprite(ico_purchase_2x, $sp-pc);
+                // @include get-sprite(ico_purchase_2x, $sp-pc);
                 content: '';
               }
             }
@@ -918,7 +952,7 @@
               &::before {
                 display: block;
                 margin-bottom: 10px;
-                @include get-sprite(ico_infra_2x, $sp-pc);
+                // @include get-sprite(ico_infra_2x, $sp-pc);
                 content: '';
               }
             }
@@ -927,7 +961,7 @@
               &::before {
                 display: block;
                 margin-bottom: 10px;
-                @include get-sprite(ic_space_2x, $sp-pc);
+                // @include get-sprite(ic_space_2x, $sp-pc);
                 content: '';
               }
             }
@@ -936,7 +970,7 @@
               &::before {
                 display: block;
                 margin-bottom: 10px;
-                @include get-sprite(ic_safe_2x, $sp-pc);
+                // @include get-sprite(ic_safe_2x, $sp-pc);
                 content: '';
               }
             }
@@ -945,7 +979,7 @@
               &::before {
                 display: block;
                 margin-bottom: 10px;
-                @include get-sprite(ico_plan_2x, $sp-pc);
+                // @include get-sprite(ico_plan_2x, $sp-pc);
                 content: '';
               }
             }
@@ -954,7 +988,7 @@
               &::before {
                 display: block;
                 margin-bottom: 10px;
-                @include get-sprite(ico_construct_2x, $sp-pc);
+                // @include get-sprite(ico_construct_2x, $sp-pc);
                 content: '';
               }
             }

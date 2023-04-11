@@ -1,13 +1,9 @@
 @charset 'UTF-8';
 
-@import 'common/mixins';
 @import 'common/reset';
 @import 'common/font';
 @import 'common/common';
 @import 'common/variable';
-
-@import 'import/sprite_maps';
-@import 'import/sprite_mixin';
 
 @import 'import/main';
 @import 'import/main_mo';

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start" : "index.html"
+    "start": "index.html"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/hill0ne/ins-site/issues"
   },
-  "homepage": "https://github.com/hill0ne/ins-site"
+  "homepage": "https://github.com/hill0ne/ins-site",
+  "dependencies": {
+    "sass": "^1.61.0"
+  }
 }

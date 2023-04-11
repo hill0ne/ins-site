@@ -69,43 +69,35 @@
 
       &__link {
         &--naver::after {
-          @include get-sprite(logo_naver, $sp-pc, (get-image: true));
-          content: "";
+          background-image: url("../../image/pc/logo_naver.png");
         }
 
         &--line::after {
-          content: "";
-          @include get-sprite(logo_line, $sp-pc, (get-image: true));
+          background-image: url("../../image/pc/logo_line.png");
         }
 
         &--cloud::after {
-          @include get-sprite(logo_naver-cloud, $sp-pc, (get-image: true));
-          content: "";
+          background-image: url("../../image/pc/logo_naver-cloud.png");
         }
 
         &--financial::after {
-          content: "";
-          @include get-sprite(logo_naver-financial, $sp-pc, (get-image: true));
+          background-image: url("../../image/pc/logo_naver-financial.png");
         }
 
         &--labs::after {
-          content: "";
-          @include get-sprite(logo_naver-lab, $sp-pc, (get-image: true));
+          background-image: url("../../image/pc/logo_naver-lab.png");
         }
 
         &--webtoon::after {
-          content: "";
-          @include get-sprite(logo_webtoon, $sp-pc, (get-image: true));
+          background-image: url("../../image/pc/logo_webtoon.png");
         }
 
         &--snow::after {
-          content: "";
-          @include get-sprite(logo_snow, $sp-pc, (get-image: true));
+          background-image: url("../../image/pc/logo_snow.png");
         }
 
         &--works::after {
-          content: "";
-          @include get-sprite(logo_work-mobile, $sp-pc, (get-image: true));
+          background-image: url("../../image/pc/logo_work-mobile.png");
         }
       }
     }
@@ -196,12 +188,17 @@
       }
 
       &__link {
-        @include get-sprite(logo_2x, $sp_mo, (get-image: true));
+        width: 110px;
+        height: 14px;
+        background-image: url("../../image/pc/logo.png");
       }
 
       .menu-mo__button {
-        display: block;
-        @include get-sprite(ic_menu_2x, $sp_mo, (get-image: true));
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        background: url("../../image/pc/ic_menu_2px.png") no-repeat center / cover;
+        cursor: pointer;
       }
 
       .menu-mo {
@@ -227,9 +224,11 @@
           &::after {
             display: block;
             position: relative;
+            width: 110px;
+            height: 55px;
             margin-top: 20.75px;
-            @include get-sprite(logo_2x, $sp_mo, (get-image: true));
-            content: '';
+            background: url("../../image/pc/logo_2x.png") no-repeat center / contain;
+            content: "";
           }
         }
 
@@ -248,13 +247,15 @@
             margin-top: 0;
           }
 
-          &--green .menu-mo__link {
+          &--green .menu-mo__menu {
             color: $color-green;
 
             &::after {
               display: inline-block;
-              @include get-sprite(ic_arrow, $sp_mo, (get-image: true));
-              content: '';
+              width: 18px;
+              height: 15px;
+              background: url("../../image/mo/ic_arrow.png") no-repeat center / contain;
+              content: "";
             }
           }
         }
@@ -278,8 +279,10 @@
 
           &::after {
             display: block;
-            @include get-sprite(ic_cancel_2x, $sp_mo, (get-image: true));
-            content: '';
+            width: 24px;
+            height: 24px;
+            background: url("../../image/mo/ic_cancel_2x.png") no-repeat center / contain;
+            content: "";
           }
         }
 
@@ -297,7 +300,6 @@
       &-slide {
         width: 100%;
         height: 100%;
-        background: beige;
       }
 
       &-img {
@@ -324,11 +326,15 @@
       }
 
       &-button-prev {
-        @include get-sprite(ic_arrow_left_2x, $sp_mo, (get-image: true));
+        width: 24px;
+        height: 24px;
+        background: url("../../image/mo/ic_arrow_left_2x.png") no-repeat center / contain;
       }
 
       &-button-next {
-        @include get-sprite(ic_arrow_right_2x, $sp_mo, (get-image: true));
+        width: 24px;
+        height: 24px;
+        background: url("../../image/mo/ic_arrow_right_2x.png") no-repeat center / contain;
       }
 
       &-pagination {
@@ -378,28 +384,28 @@
         &::after {
           position: absolute;
           top: 20px;
+          width: 48px;
+          height: 48px;
           content: "";
         }
 
-        &--company {
-          &::after {
-            @include get-sprite (ico_company_2x, $sp-mo, (get-image: true));
-          }
+        &--company::after {
+          background-image: url("../../image/mo/ico_company_2x.png");
         }
 
         &--date::after {
-          @include get-sprite (ico_date_2x, $sp-mo, (get-image: true));
+          background-image: url("../../image/mo/ico_date_2x.png");
         }
 
         &--ceo::after {
-          @include get-sprite (ico_ceo_2x, $sp-mo, (get-image: true));
+          background-image: url("../../image/mo/ico_ceo_2x.png");
         }
 
         &--work {
           margin: 20px -18px 0 0;
 
           &::after {
-            @include get-sprite (ico_work_2x, $sp-mo, (get-image: true));
+            background-image: url("../../image/mo/ico_work_2x.png");
           }
         }
 
@@ -407,7 +413,7 @@
           margin: 20px 0 0 -20px;
 
           &::after {
-            @include get-sprite (ico_num_2x, $sp-mo, (get-image: true));
+            background-image: url("../../image/mo/ico_num_2x.png");
           }
         }
       }
@@ -474,45 +480,52 @@
           padding-right: 0;
         }
 
-
         &--naver .company__link::after {
-          @include get-sprite(logo_naver, $sp-mo, (get-image: true));
-          content: "";
+          width: 70px;
+          height: 13px;
+          background-image: url("../../image/mo/logo_naver.png");
         }
 
         &--line .company__link::after {
-          content: "";
-          @include get-sprite(logo_line, $sp-mo, (get-image: true));
+          width: 66px;
+          height: 32px;
+          background-image: url("../../image/mo/logo_line.png");
         }
 
         &--cloud .company__link::after {
-          @include get-sprite(logo_naver-cloud, $sp-mo, (get-image: true));
-          content: "";
+          width: 112px;
+          height: 13px;
+          background-image: url("../../image/mo/logo_naver-cloud.png");
         }
 
         &--finance .company__link::after {
-          content: "";
-          @include get-sprite(logo_naver-financial, $sp-mo, (get-image: true));
+          width: 90px;
+          height: 24px;
+          background-image: url("../../image/mo/logo_naver-financial.png");
         }
 
         &--labs .company__link::after {
-          content: "";
-          @include get-sprite(logo_naver-lab, $sp-mo, (get-image: true));
+          width: 112px;
+          height: 12px;
+          background-image: url("../../image/mo/logo_naver-lab.png");
         }
 
         &--webtoon .company__link::after {
-          content: "";
-          @include get-sprite(logo_webtoon, $sp-mo, (get-image: true));
+          width: 85px;
+          height: 30px;
+          background-image: url("../../image/mo/logo_webtoon.png");
         }
 
         &--snow .company__link::after {
-          content: "";
-          @include get-sprite(logo_snow, $sp-mo, (get-image: true));
+          width: 53px;
+          height: 13px;
+          background-image: url("../../image/mo/logo_snow.png");
         }
 
         &--works .company__link::after {
-          content: "";
-          @include get-sprite(logo_work-mobile, $sp-mo, (get-image: true));
+          width: 124px;
+          height: 23px;
+          background-image: url("../../image/mo/logo_work-mobile.png");
         }
       }
 
@@ -631,8 +644,9 @@
 
         &:hover .service__button {
           &::before {
-            content: "";
-            @include get-sprite(icon_plus_hover_2x, $sp-mo, (get-image: true));
+            width: 24px;
+            height: 24px;
+          background-image: url("../../image/mo/icon_plus_hover_2x.png");
           }
         }
       }
@@ -653,8 +667,9 @@
 
         &::before {
           margin-right: 6px;
-          @include get-sprite(ico_plus_2x, $sp-mo, (get-image: true));
-          content: '';
+          width: 24px;
+          height: 24px;
+          background-image: url("../../image/mo/ico_plus_2x.png");
         }
       }
     }
@@ -730,7 +745,6 @@
         order: 1;
         width: 100%;
         padding-bottom: 280px;
-        background: beige;
       }
     }
 
@@ -760,12 +774,15 @@
         &::after {
           position: relative;
           left: 1px;
-          @include get-sprite(ic_arrow, $sp-mo, (get-image: true));
-          content: '';
+          width: 16px;
+          height: 16px;
+          background-image: url("../../image/mo/ic_arrow.png");
         }
 
         &:hover::after {
-          @include get-sprite(ic_arrow_recruit_white_2x, $sp-mo, (get-image: true));
+          width: 16px;
+          height: 16px;
+          background-image: url("../../image/mo/ic_arrow_recruit_white_2x.png");
         }
       }
     }
